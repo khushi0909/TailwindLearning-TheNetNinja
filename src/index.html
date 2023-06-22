@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="../dist/styles.css">
 </head>
 <body class="text-gray-600 font-body "><!--doubt-class not working-->
-    <div> <!-- content wrapper-->   
-        <div>
+    <div class="grid md:grid-cols-3"> <!-- content wrapper-->   
+        <div class="md:col-span-1">
       
                 <div>
                     <h1 class="font-bold uppercase p-4 border-b border-gray-100">
@@ -36,7 +36,7 @@
         </div><!--End Nav-->
 
 
-        <main class="px-16 py-6 bg-gray-100">
+        <main class="px-16 py-6 bg-gray-100 md:col-span-2">
             <div class="flex justify-center md:justify-end ">
                 <a href="#" class="text-primary">LogIn</a>
                 <a href="#" class="text-primary ml-2"    >SignUp</a>
@@ -51,11 +51,11 @@
             <div>
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
 
-                <div class="mt-8">
+                <div class="mt-8 grid lg:grid-cols-3 gap-10">
                     <div class="card"><!--card go here -->
                         <img src="./img/stew.jpg" class="w-full h-32 sm:h-48 object-cover"alt="">
                         <div class="m-4">
-                            <span class="font-bold">5 bean chilli stew</span>
+                            <span class="font-bold ">5 bean chilli stew</span>
                             <span class="block text-gray-500 text-sm">Recipe by Mario</span>
                         </div>
                         
